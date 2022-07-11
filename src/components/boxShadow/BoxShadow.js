@@ -4,7 +4,7 @@ const BoxShadow = ()=>{
     return(
         <div>
         <h1>Soon...</h1>
-        <h1>Test1</h1>
+        <h1>Test2</h1>
         </div>
     )
 }
