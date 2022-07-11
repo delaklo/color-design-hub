@@ -1,76 +1,44 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "San Francisco", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-  /* text-transform: uppercase; */
-  /* top: 15%; */
-  background: linear-gradient(to right, red, yellow); /* Standard syntax */
-}
-nav img{
-  padding:1rem;
-}
-.container {
-  text-align: left;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-#c1{
-  margin-right: 4rem;
-  padding-top:0;
-  padding-bottom: 0;
-}
-#c2{
-  padding-top:0;
-  padding-bottom: 0;
+  background-image: url("./img/bg-mesh.png");
 }
 
-h1 {
-  font-size: 4rem;
-  color: peachpuff;
-  text-align: left;
-  width: 100%;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h3 {
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0.01em;
+nav{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
 }
 
-.lable {
-  display: inline-block;
-  font-size: 2em;
+a{
+  text-decoration: none;
 }
 
-input {
-  margin: 0.5em 0.5em 0.5em 0em;
-  width: 50px;
-  height: 30px;
+.btn-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  width: 8vw;
+  height: 6vh;
+  margin-left: 30px;
 }
 
-[type="radio"] {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: .5em;
-}
-
-button {
-  padding: 0.5em;
-  margin-left: 30%;
-  width: 250px;
-  height: 65px;
-  font-size: 1.5em;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  border: 5px solid rgb(129, 119, 119);
-  border-radius: 35px;
-  background-color: rgba(170, 148, 148, 0.5);
+.btn-nav:hover{
   cursor: pointer;
-}
-
-label{
-  margin-right:  2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }

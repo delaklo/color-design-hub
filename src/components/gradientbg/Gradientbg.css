@@ -1,0 +1,30 @@
+.gradient{
+    width: 70vw;
+    height: 44vh;
+    border-radius: .4rem;
+    margin: 20px;
+  }
+  
+  .pickers{
+    display: flex;
+    align-items: center;
+  }
+  
+  .pickers h3{
+    margin: 10px;
+  }
+  
+  .content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(233, 233, 233, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: .4rem;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .range{
+    width: 60%
+  }
