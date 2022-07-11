@@ -1,11 +1,11 @@
 {
-  "name": "color-design-hub",
+  "name": "color-design-hub-app",
   "version": "0.1.0",
   "description": "color design hub is a place where you can experiment with colors and their implementation in projects",
   "private": true,
   "author": "Vitaliy Putienko <delaklovp@gmail.com>",
   "license": "MIT",
-  "homepage": "https://delaklo.github.io/color-design-hub",
+  "homepage": "https://delaklo.github.io/color-design-hub-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
