@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Gradientbg from "./components/gradientbg/Gradientbg";
 //import Home from "./components/home/Home";
-import BoxShadow from "./components/boxShadow/BoxShadow";
+import Palette from "./components/palette/Palette";
 import './App.css';
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
       <h3 className="app-name">Color Design Hub</h3>
       <Link to="/"><button className="btn-nav">Home</button></Link>
       <Link to="/gradientbg"><button className="btn-nav">Gradient Background</button></Link>
-      <Link to="/boxshadow"><button className="btn-nav">Soon...</button></Link>
+      <Link to="/palette"><button className="btn-nav">Color Palette</button></Link>
       </nav>
       
       <Routes>
         <Route path="/" element={<Gradientbg />} />
         <Route path="gradientbg" element={<Gradientbg />} />
-        <Route path="boxshadow" element={<BoxShadow />} />
+        <Route path="palette" element={<Palette />} />
       </Routes>
     </div>
   );

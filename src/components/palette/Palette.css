@@ -1,0 +1,10 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(233, 233, 233, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: .4rem;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
