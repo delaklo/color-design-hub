@@ -11,4 +11,4 @@ Star the repository if you find at least one tool useful
 <br />
 And get involved if you have free time to make this app more useful for other developers like us
 <br />
-TO DO: color pallete, ready-made gradient backgrounds
+TO DO: color palette, ready-made gradient backgrounds
