@@ -7,8 +7,6 @@ So far, the app has only a background gradient creator, and this is only the fir
 ![Background gradient](./screenshots/promo.png)
 
 ## Create together
-Star the repository if you find at least one tool useful
-<br />
-And get involved if you have free time to make this app more useful for other developers like us
+get involved if you have free time to make this app more useful for other developers like us
 <br />
 TO DO: color palette, ready-made gradient backgrounds
