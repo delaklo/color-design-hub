@@ -9,6 +9,23 @@
     margin-bottom: 50px;
   }
 
+  .dark-content{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background: rgba(121, 121, 121, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: .4rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+  }
+
+.top{
+  display: flex;
+}
+
 .palette{
     display:flex;
     flex-direction: row;
@@ -16,9 +33,13 @@
     align-items: center;
     padding: 20px;
     width: 40vw;
-    height: 30vh;
+    height: 40vh;
   }
 
-.pallete div{
-padding:30px;
+.copied{
+  margin: 16px
+}
+
+.btn-dark{
+  border-radius: 100px;
 }

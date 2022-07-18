@@ -35,6 +35,11 @@ a{
   width: 8vw;
   height: 6vh;
   margin-left: 30px;
+
+  -webkit-transition: color 1s, font-size 1s;
+  -moz-transition: color 1s, font-size 1s;
+    -o-transition: color 1s, font-size 1s;
+       transition: color 1s, font-size 1s;
 }
 
 .btn-nav:hover{
