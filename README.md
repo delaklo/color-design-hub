@@ -1,6 +1,6 @@
 # What is it?
 The Color Design Hub is the place where you can use ready-made design tools to create beautiful and colorful designs.
-So far, the app has only a background gradient creator, and this is only the first deployment. In the future I want to create more design tools. App was deployed on https://delaklo.github.io/color-design-hub/
+So far, the app has only a background gradient creator and color palette with carousel effect. In the future I want to create more design tools. App was deployed on https://delaklo.github.io/color-design-hub/
 <br />
 
 ## How it looks
