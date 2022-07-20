@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0);
   background-image: url("./img/bg-mesh.png");
 }
 
@@ -17,7 +17,10 @@ nav{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 20px;
+  padding-left: 20px;
+  background-color: rgba(58, 53, 53, 0.8);
+  color: white;
+  border-radius: 0 0 .6rem .6rem;
 }
 
 a{
@@ -35,6 +38,7 @@ a{
   width: 8vw;
   height: 6vh;
   margin-left: 30px;
+  color: white;
 
   -webkit-transition: color 1s, font-size 1s;
   -moz-transition: color 1s, font-size 1s;
@@ -46,4 +50,8 @@ a{
   cursor: pointer;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.github{
+  float: left
 }

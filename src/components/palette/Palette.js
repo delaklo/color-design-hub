@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Palette.css";
 import "../../App.css";
+import darkIcon from "../../img/dark.png"
 
 const Palette = ({color1, color2, color3, color4, color5, color6})=>{
     
@@ -28,7 +29,9 @@ const Palette = ({color1, color2, color3, color4, color5, color6})=>{
         <div className={darkMode ? "dark-content" : "content"}>
             <div className="top">
             <h3>Click on color to copy color code to the clipboard</h3>
-            <div className="btn-dark" onClick={()=>setDarkMode(!darkMode)}>darkMode</div>
+            <div className="btn-dark" onClick={()=>setDarkMode(!darkMode)}><img src={darkIcon}
+            width="30px" height="30px" alt="Turn on dark mode"></img>
+            </div>
             </div>
             <div className="palette">
             {colors.map((el)=>{
