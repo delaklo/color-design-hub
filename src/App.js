@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Gradientbg from "./components/gradientbg/Gradientbg";
 //import Home from "./components/home/Home";
 import ColorPalette from "./components/palette/ColorPalette";
+import Footer from "./components/footer/Footer";
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="gradientbg" element={<Gradientbg />} />
         <Route path="palettes" element={<ColorPalette />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

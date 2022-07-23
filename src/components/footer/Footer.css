@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgb(219, 204, 204);
+    background-color: rgb(44, 38, 49);
+}
+
+.section-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid rgba(231, 223, 223, 0.2);
+    width: 100%;
+}
+
+.section-left, .section-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(219, 204, 204);
+}
+
+a:hover{
+    color:rgb(235, 225, 225);
+}

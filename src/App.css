@@ -3,7 +3,7 @@ body {
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgba(0, 0, 0);
-  background-image: url("./img/bg-mesh.png");
+  background: rgb(221, 219, 226);
 }
 
 .main {
@@ -18,8 +18,8 @@ nav{
   justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
-  background-color: rgba(58, 53, 53, 0.8);
-  color: white;
+  background-color: transparent;
+  color: rgb(86, 82, 110);
   border-radius: 0 0 .6rem .6rem;
 }
 
@@ -38,7 +38,7 @@ a{
   width: 8vw;
   height: 6vh;
   margin-left: 30px;
-  color: white;
+  color: rgb(86, 82, 110);
 
   -webkit-transition: color 1s, font-size 1s;
   -moz-transition: color 1s, font-size 1s;
