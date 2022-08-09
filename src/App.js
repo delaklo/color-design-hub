@@ -14,7 +14,6 @@ function App() {
       <Link to="/"><button className="btn-nav">Home</button></Link>
       <Link to="/gradientbg"><button className="btn-nav">Gradient Background</button></Link>
       <Link to="/palettes"><button className="btn-nav">Color Palette</button></Link>
-      <a href="https://github.com/delaklo/color-design-hub"><button className="btn-nav">GitHub</button></a>
       </nav>
       
       <Routes>

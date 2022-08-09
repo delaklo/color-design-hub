@@ -1,9 +1,9 @@
-.content, .dark-content{
+.white-content, .dark-content{
   display:flex;
   flex-direction: column;
   color: black;
   align-items: center;
-  background: rgba(233, 233, 233, 0.6);
+  background: rgba(233, 233, 233);
   backdrop-filter: blur(5px);
   border-radius: .4rem;
   padding-left: 200px;
@@ -11,7 +11,7 @@
   }
 
   .dark-content{
-    background: rgba(121, 121, 121, 0.6);
+    background: rgb(121, 121, 121);
     color: white;
   }
 

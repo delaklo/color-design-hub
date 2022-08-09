@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
   margin: 0px;
   padding: 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(0, 0, 0);
-  background: rgb(221, 219, 226);
+  font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(25, 25, 31);
+  background-color: rgb(249, 248, 255)
 }
 
 .main {
@@ -31,27 +33,22 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: larger;
+  font-size: 1.2rem;
   background-color: transparent;
   border: none;
   text-decoration: none;
-  width: 8vw;
-  height: 6vh;
+  width: 100%;
+  height: 100%;
   margin-left: 30px;
-  color: rgb(86, 82, 110);
-
-  -webkit-transition: color 1s, font-size 1s;
-  -moz-transition: color 1s, font-size 1s;
-    -o-transition: color 1s, font-size 1s;
-       transition: color 1s, font-size 1s;
+  background: -webkit-linear-gradient(rgb(248, 24, 91), rgb(147, 65, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: color 1s, font-size .4s;
+  -moz-transition: color 1s, font-size .4s;
+       transition: color 1s, font-size .4s;
 }
 
 .btn-nav:hover{
   cursor: pointer;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.github{
-  float: left
+  font-size: 1.3rem;
 }

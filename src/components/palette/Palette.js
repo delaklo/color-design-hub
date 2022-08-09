@@ -26,7 +26,7 @@ const Palette = ({color1, color2, color3, color4, color5, color6})=>{
     
     return(
         <div>             
-        <div className={darkMode ? "dark-content" : "content"}>
+        <div className={darkMode ? "dark-content" : "white-content"}>
             <div className="top">
             <h3>Click on color to copy color code to the clipboard</h3>
             <div className="btn-dark" onClick={()=>setDarkMode(!darkMode)}><img src={darkIcon}
