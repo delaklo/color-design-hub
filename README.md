@@ -12,4 +12,4 @@ So far, the app has only a background gradient creator and color palette with ca
 ## Create together
 get involved if you have free time to make this app more useful for other developers like us
 <br />
-TO DO: color palette, ready-made gradient background
+TO DO: spinner, ready-made gradient background
