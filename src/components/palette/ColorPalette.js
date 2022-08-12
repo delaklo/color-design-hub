@@ -7,7 +7,7 @@ import {num1, num2, num3 } from './ColorConst.js';
 
 const ColorPalette = ()=>{
 
-    const nums = [{num: num1}, {num: num2}, {num: num3}];
+    const nums = [num1, num2, num3];
 
     return(
         <div>
@@ -16,8 +16,8 @@ const ColorPalette = ()=>{
         <Carousel>
             {nums.map(el =>{
                 return(
-                    <Palette color1={el.num.color1} color2={el.num.color2} color3={el.num.color3}
-                    color4={el.num.color4} color5={el.num.color5} color6={el.num.color6} />
+                    <Palette color1={el.color1} color2={el.color2} color3={el.color3}
+                    color4={el.color4} color5={el.color5} color6={el.color6} />
                 )
             })}
          </Carousel>

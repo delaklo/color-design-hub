@@ -12,8 +12,8 @@ const Palette = ({color1, color2, color3, color4, color5, color6})=>{
     const style5 = {backgroundColor: color5, height: "100%", width: "14%"};
     const style6 = {backgroundColor: color6, height: "100%", width: "14%"};    
 
-    const colors = [{style: style1}, {style: style2}, {style: style3}, {style: style4}, 
-        {style: style5}, {style: style6}];
+    const colors = [style1, style2, style3, style4, 
+        style5, style6];
 
     const [copied, setCopied] = useState(false);
     const [darkMode, setDarkMode] = useState(false);
@@ -36,7 +36,7 @@ const Palette = ({color1, color2, color3, color4, color5, color6})=>{
             <div className="palette">
             {colors.map((el)=>{
                 return(
-                    <div style={el.style} onClick={()=>copy(el.style.backgroundColor)}></div>
+                    <div style={el} onClick={()=>copy(el.backgroundColor)}></div>
                 )
             })}
           </div>

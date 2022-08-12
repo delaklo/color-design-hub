@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Buttons.css";
 
-const ButtonItem = ()=>{
+const ButtonItem = ({ color })=>{
+
+    const [copied, setCopied] = useState(false);
+
+    function copy(color){
+        navigator.clipboard.writeText(color);
+        setCopied(true);
+        setTimeout(()=> setCopied(false), 1000)
+    }
+
     return(
-        <button>Hello</button>
+        <div className='btn-item'>
+        <button className="gr-btn" style={{backgroundImage: color}} onClick={()=>copy(color)}>Hello!</button>
+        {copied ? (<p>Copied!</p>) : (<p>Click to copy</p>)}
+        </div>
     )
 }
 
