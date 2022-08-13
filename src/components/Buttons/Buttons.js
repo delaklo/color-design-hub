@@ -15,15 +15,15 @@ const Buttons = ()=>{
         <div className="btn-page">
             <div className="up-cont">
             <div className="text-cont">
-            <h3>Beautyful gradient buttons hub</h3>
+            <h3>Beautiful gradient buttons hub</h3>
             <p>WOW! Ready-made colorful buttons with hover effect!</p>
-            <p>Just click on the button to copy full css code to clipboard</p>
+            <p>Just click on the button to copy css code to clipboard</p>
             </div>
              <div className="btn-cont">
                 <button className="gr-btn" 
                 style={{backgroundImage: bc4.color}}
                 onClick={()=>setShowCode(!showCode)}>
-                    Click to show CSS of the button
+                    Click here to show full CSS of the button
                     </button>
              </div>
              {showCode && <CodeBlock />}

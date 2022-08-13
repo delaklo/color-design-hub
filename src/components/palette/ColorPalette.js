@@ -3,16 +3,17 @@ import "./Palette.css";
 import "../../App.css";
 import Palette from "./Palette";
 import Carousel from "./Carousel";
-import {num1, num2, num3 } from './ColorConst.js';
+import {num1, num2, num3, num4, num5, num6 } from './ColorConst.js';
 
 const ColorPalette = ()=>{
 
-    const nums = [num1, num2, num3];
+    const nums = [num1, num2, num3, num4, num5, num6];
 
     return(
         <div>
             <div className="main">              
-        <h1>Newest Color Combinations</h1>
+        <h2>Newest Color Combinations</h2>
+        <h3>Click on the moon to change background color</h3>
         <Carousel>
             {nums.map(el =>{
                 return(
