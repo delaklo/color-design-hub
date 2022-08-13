@@ -17,6 +17,31 @@
     margin: 30px;
 }
 
+.code-block{
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: .4rem;
+    animation-duration: 0.5s;
+    animation-name: animate-pop;
+    animation-timing-function: cubic-bezier(.20, .50, .80, 1.20);
+}
+
+@keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+
+.btn-cont{
+    margin-right: 20px;
+}
+
 .block-items{
     display: flex;
     justify-content: center;
@@ -57,4 +82,3 @@
     background-position: center top;
     color: #fff; 
 }
-

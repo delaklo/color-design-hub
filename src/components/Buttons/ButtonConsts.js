@@ -61,3 +61,10 @@ export const bc15 = {
 export const bc16 = {
     color: "linear-gradient(286deg, #abc035, #0af5d9)"
 }
+
+export const bc17 = 
+    ".gr-btn{" +
+"        display: block;"+
+"        font-family: 'railway'"+
+"       font-size: larger;" +
+"}"

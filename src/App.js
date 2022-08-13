@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Gradientbg from "./components/gradientbg/Gradientbg";
-//import Home from "./components/home/Home";
+import Home from "./components/home/Home";
 import ColorPalette from "./components/palette/ColorPalette";
 import Buttons from "./components/Buttons/Buttons";
 import Footer from "./components/footer/Footer";
@@ -19,7 +19,7 @@ function App() {
       </nav>
       
       <Routes>
-        <Route path="/" element={<Gradientbg />} />
+        <Route path="/" element={<Home />} />
         <Route path="gradientbg" element={<Gradientbg />} />
         <Route path="palettes" element={<ColorPalette />} />
         <Route path="buttons" element={<Buttons />} />

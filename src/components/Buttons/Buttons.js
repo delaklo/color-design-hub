@@ -1,11 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import ButtonItem from "./ButtonItem";
-import { bc1, bc2, bc3, bc4, bc5, bc6, bc7, bc8, bc9, bc10, bc11, bc12, bc13, bc14, bc15, bc16 } from "./ButtonConsts";
+import { bc1, bc2, bc3, bc4, bc5, bc6, bc7, bc8, bc9, bc10, bc11, bc12, bc13, bc14, bc15, bc16, bc17 } from "./ButtonConsts";
 import "./Buttons.css";
+import CodeBlock from "./CodeBlock";
 
 const Buttons = ()=>{
 
     const bcolors = [bc1, bc2, bc3, bc4, bc5, bc6, bc7, bc8, bc9, bc10, bc11, bc12, bc13, bc14, bc15, bc16];
+
+    const [showCode, setShowCode] = useState(false);
 
     
     return(
@@ -19,10 +22,11 @@ const Buttons = ()=>{
              <div className="btn-cont">
                 <button className="gr-btn" 
                 style={{backgroundImage: bc4.color}}
-                onClick={()=>alert("Not Imlpemeted yet")}>
-                    Copy CSS code of button
+                onClick={()=>setShowCode(!showCode)}>
+                    Click to show CSS of the button
                     </button>
              </div>
+             {showCode && <CodeBlock />}
             </div>
             <div className="block-items"> 
             {bcolors.map(el=>{
