@@ -22,7 +22,7 @@ const Home = ()=>{
                 </h3> 
             </div>
             <div className="page-items">
-            <PageItem desc={"Use ready-made beautyful buttons!"} img={btnimg} link="/buttons"/>
+            <PageItem desc={"Use ready-made beautiful buttons!"} img={btnimg} link="/buttons"/>
             <PageItem desc={"Discover new color combinations!"} img={palimg} link="/palettes" />
             <PageItem desc={"Create awesome and colorful gradient backgrounds!"} img={bgimg} link="/gradientbg" />
         </div>
