@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/color-design-hub/static/css/main.f9184a80.css",
-    "main.js": "/color-design-hub/static/js/main.88c24fa4.js",
+    "main.css": "/color-design-hub/static/css/main.db98d418.css",
+    "main.js": "/color-design-hub/static/js/main.b96b4014.js",
     "static/js/787.bbfa647f.chunk.js": "/color-design-hub/static/js/787.bbfa647f.chunk.js",
     "static/media/btnimg.png": "/color-design-hub/static/media/btnimg.87e155c930a306085b0b.png",
     "static/media/bgimg.png": "/color-design-hub/static/media/bgimg.5ed08bd195907920349f.png",
     "static/media/palimg.png": "/color-design-hub/static/media/palimg.99115d9987a6f4e46a54.png",
     "static/media/dark.png": "/color-design-hub/static/media/dark.44bd0b7292de3b7cb029.png",
     "index.html": "/color-design-hub/index.html",
-    "main.f9184a80.css.map": "/color-design-hub/static/css/main.f9184a80.css.map",
-    "main.88c24fa4.js.map": "/color-design-hub/static/js/main.88c24fa4.js.map",
+    "main.db98d418.css.map": "/color-design-hub/static/css/main.db98d418.css.map",
+    "main.b96b4014.js.map": "/color-design-hub/static/js/main.b96b4014.js.map",
     "787.bbfa647f.chunk.js.map": "/color-design-hub/static/js/787.bbfa647f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9184a80.css",
-    "static/js/main.88c24fa4.js"
+    "static/css/main.db98d418.css",
+    "static/js/main.b96b4014.js"
   ]
 }
