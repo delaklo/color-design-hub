@@ -6,6 +6,7 @@ import ColorPalette from "./components/palette/ColorPalette";
 import Buttons from "./components/Buttons/Buttons";
 import Footer from "./components/footer/Footer";
 import './App.css';
+import UsefulResources from "./components/UsefulResources/UsefulResources";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Link to="/gradientbg"><button className="btn-nav">Gradient Background</button></Link>
       <Link to="/palettes"><button className="btn-nav">Color Palette</button></Link>
       <Link to="/buttons"><button className="btn-nav">Gradient Buttons</button></Link>
+      <Link to="/uresources"><button className="btn-nav">UsefulResources</button></Link>
       </nav>
       
       <Routes>
@@ -23,6 +25,7 @@ function App() {
         <Route path="gradientbg" element={<Gradientbg />} />
         <Route path="palettes" element={<ColorPalette />} />
         <Route path="buttons" element={<Buttons />} />
+        <Route path="uresources" element={<UsefulResources />} />
       </Routes>
       <Footer />
     </div>

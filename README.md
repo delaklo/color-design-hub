@@ -9,7 +9,5 @@ So far, the app has a background gradient creator, color palette with carousel e
 ## How it looks
 ![Background gradient](./screenshots/promo.png)
 
-## Create together
-get involved if you have free time to make this app more useful for other developers like us
 <br />
 TO DO: spinner, ready-made gradient background, better readme

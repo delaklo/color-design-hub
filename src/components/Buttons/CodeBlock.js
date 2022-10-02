@@ -7,6 +7,7 @@ const CodeBlock = ()=>{
              <code>
              {`.gr-btn{`}<br/>
     {`display: block;`}<br/>
+    {`background-image:     ; /*put here copied text*/`}<br/>
     {`font-size: larger;`}<br/>
     {`margin: 10px;`}<br/>
     {`padding: 16px 60px;`}<br/>
