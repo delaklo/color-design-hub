@@ -14,10 +14,12 @@ const Footer = ()=>{
                 </div>
                 <div className="section-right">
                     Social links:
+                    <div className="s_links">
                     <a href="https://github.com/delaklo/color-design-hub" target="_blank"><img src={githubLogo}
                     alt="github"></img></a>
                     <a href="https://twitter.com/delaklo" target="_blank"><img src={twitterLogo}
                     style={{width:"32px", height: "32px"}} alt="twitter"></img></a>
+                    </div>
                 </div>
             </div>
             <p>delaklo 2022</p>

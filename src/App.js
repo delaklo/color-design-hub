@@ -17,7 +17,7 @@ function App() {
       <Link to="/gradientbg"><button className="btn-nav">Gradient Background</button></Link>
       <Link to="/palettes"><button className="btn-nav">Color Palette</button></Link>
       <Link to="/buttons"><button className="btn-nav">Gradient Buttons</button></Link>
-      <Link to="/uresources"><button className="btn-nav">UsefulResources</button></Link>
+      <Link to="/uresources"><button className="btn-nav">Useful Resources</button></Link>
       </nav>
       
       <Routes>

@@ -11,15 +11,21 @@
 .section-top{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 14px;
     border-bottom: 1px solid rgba(231, 223, 223, 0.2);
     width: 100%;
 }
 
-.section-left, .section-right{
+.section-left{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.s_links{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 
 

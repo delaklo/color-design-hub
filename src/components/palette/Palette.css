@@ -41,3 +41,24 @@ h1{
 .btn-dark{
   margin-left: 3vw;
 }
+
+.main-pal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 90px 60px 90px;
+}
+
+.wrapper_block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.pal_p{
+  width: 50%;
+  margin-left: 50px;
+  text-align: center;
+}
