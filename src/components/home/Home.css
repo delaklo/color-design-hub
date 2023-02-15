@@ -12,13 +12,25 @@
   flex-wrap: wrap;
 }
 
+ @media screen and (max-width: 480px){
+     .text-block{
+      margin: 0 auto;
+     width: 90vw;
+     }
+
+     .page-item{
+      width: 200px;
+     }
+    
+}
+
 .page-item{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 40px;
-    width: 40vw;
+    width: 400px;
     background: rgba(233, 233, 233);
     backdrop-filter: blur(5px);
     border-radius: .4rem;
@@ -47,4 +59,16 @@
 
   .big-text{
     font-size: 80px;
+  }
+
+  @media (max-width: 480px) {
+    /* CSS rules for small screens go here */
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* CSS rules for medium screens go here */
+  }
+  
+  @media (min-width: 769px) {
+    /* CSS rules for large screens go here */
   }

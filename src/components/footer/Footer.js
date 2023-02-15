@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import githubLogo from  "../../img/GitHub-Mark-Light-32px.png";
+import githubLogo from  "../../img/github-mark-white.svg";
 import twitterLogo from "../../img/twitter-icon.png";
 
 const Footer = ()=>{
@@ -14,15 +14,15 @@ const Footer = ()=>{
                 </div>
                 <div className="section-right">
                     Social links:
-                    <div className="s_links">
+                    <div className="s_links" style={{overflow:"visible"}}>
                     <a href="https://github.com/delaklo/color-design-hub" target="_blank"><img src={githubLogo}
-                    alt="github"></img></a>
+                    alt="github" style={{ height: 32, width: 32 }} /></a>
                     <a href="https://twitter.com/delaklo" target="_blank"><img src={twitterLogo}
-                    style={{width:"32px", height: "32px"}} alt="twitter"></img></a>
+                    style={{width:"32px", height: "32px"}} alt="twitter" /></a>
                     </div>
                 </div>
             </div>
-            <p>delaklo 2022</p>
+            <p className="delaklo">delaklo 2022</p> 
         </div>
     )
 }

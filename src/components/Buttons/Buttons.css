@@ -82,3 +82,34 @@
     background-position: center top;
     color: #fff; 
 }
+
+@media screen and (max-width: 480px){
+  .gr-btn{
+    width: 180px;
+    padding: 16px 20px;
+    margin: 0 auto;
+  }
+
+  .btn-item{
+    text-align: center;
+  }
+
+
+  .up-cont{
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
+    
+  }
+
+  .text-cont{
+    width: 80%;
+    margin-top: 25px;
+    text-align: start;
+    gap: 20px;
+  }
+
+  .btn-cont{
+    margin: 0 auto;
+  }
+}

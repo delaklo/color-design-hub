@@ -15,14 +15,13 @@
   }
   
   .content{
+    width: 800px;
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(233, 233, 233);
     backdrop-filter: blur(5px);
     border-radius: .4rem;
-    padding-left: 200px;
-    padding-right: 200px;
   }
 
   .content:before {
@@ -40,6 +39,7 @@
     border-radius: inherit;
 }
 
+
 .content::after {
     content: "";
     z-index: -1;
@@ -51,9 +51,20 @@
     background: inherit;
     border-radius: inherit;
 }
-        
+       
         
   
   .range{
     width: 60%
+  }
+
+
+  @media screen and (max-width: 480px){
+.content{
+  margin: 0 auto;
+  width: 90vw;
+  height: 300px;
+  gap: 25px;
+  padding: 10px;
+}
   }

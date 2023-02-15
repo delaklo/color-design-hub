@@ -6,8 +6,8 @@ const UsefulResources = ()=>{
 
 
     return(
-        <div className='main'>
-            <h3>List of recommended resources you might be interested in</h3>
+        <div className='ures__main'>
+            <h3 className='ures__header'>List of recommended resources you might be interested in</h3>
             <ListItem desc={"Color Paletts - Heavy.ai"}  link="https://www.heavy.ai/blog/12-color-palettes-for-telling-better-stories-with-your-data"/>
             <ListItem desc={"Free library of 900+ open source icons - Iconoir"}  link="https://iconoir.com/"/>
             <ListItem desc={"1307 Free SVG icons for popular brands - Simpleicons"}  link="https://simpleicons.org/"/>

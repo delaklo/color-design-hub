@@ -1,3 +1,10 @@
+.ures__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 .list-item{
     width: 60%;
@@ -20,4 +27,24 @@
     box-shadow: 0 0 20px #eee;
     border-radius: .5rem;
     border: none;
+}
+
+@media screen and (max-width: 480px){
+
+    .ures__main{
+        gap: 40px;
+    }
+
+    .ures__header{
+        margin: 30px;
+    }
+
+    .list-item{
+        flex-direction: column;
+    }
+
+    .btn-rec{
+        padding: 8px 20px;
+
+    }
 }

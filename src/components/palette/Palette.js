@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Palette.css";
 import "../../App.css";
-import darkIcon from "../../img/dark.png"
+import darkIcon from "../../img/moon.svg"
 
 const Palette = ({color1, color2, color3, color4, color5, color6})=>{
     

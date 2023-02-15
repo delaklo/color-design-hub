@@ -10,10 +10,10 @@ import palimg from "../../img/palimg.png";
 const Home = ()=>{
     return(
         <div className="home">
-            <div className="text-block">
+            
                 <h1 className="big-text">
                     Colorful & Open Source
-                </h1>
+                </h1><div className="text-block">
                 <h3>
                 Place where you can use ready-made design tools to create beautiful and colorful designs.
                 </h3> <br/>
@@ -24,7 +24,7 @@ const Home = ()=>{
             <div className="page-items">
             <PageItem desc={"Use ready-made beautiful buttons!"} img={btnimg} link="/buttons"/>
             <PageItem desc={"Discover new color combinations!"} img={palimg} link="/palettes" />
-            <PageItem desc={"Create awesome and colorful gradient backgrounds!"} img={bgimg} link="/gradientbg" />
+            <PageItem desc={"Create awesome & colorful gradient backgrounds!"} img={bgimg} link="/gradientbg" />
         </div>
        </div>
     )

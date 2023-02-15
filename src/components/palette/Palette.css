@@ -6,8 +6,6 @@
   background: rgba(233, 233, 233);
   backdrop-filter: blur(5px);
   border-radius: .4rem;
-  padding-left: 200px;
-  padding-right: 200px;
   }
 
   .dark-content{
@@ -31,7 +29,7 @@ h1{
     align-items: center;
     padding: 20px;
     width: 40vw;
-    height: 40vh;
+    height: 60vh;
   }
 
 .copied{
@@ -59,6 +57,43 @@ h1{
 
 .pal_p{
   width: 50%;
-  margin-left: 50px;
-  text-align: center;
+  margin-left: 20px;
+  text-align: start;
+}
+
+@media screen and (max-width: 480px){
+  .wrapper_block{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .white-content, .dark-content{
+    display:flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    background: rgba(233, 233, 233);
+    backdrop-filter: blur(5px);
+    border-radius: .4rem;
+    }
+    .palette{
+      width: 80vw;
+      height: 40vh;
+    }
+
+    .main-pal{
+      padding: 0;
+    }
+
+    .pal_p{
+      width: 80%;
+      margin-top: 25px;
+      text-align: start;
+    }
+
+    .top{
+      margin: 15px 0 0 30px;
+    }
 }

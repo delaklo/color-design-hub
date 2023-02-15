@@ -15,7 +15,13 @@ body {
   align-items: center;
 }
 
-nav{
+.full-nav{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.inline-nav{
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -24,6 +30,64 @@ nav{
   color: rgb(86, 82, 110);
   border-radius: 0 0 .6rem .6rem;
 }
+
+
+
+.nav__burger{
+  display: none;
+}
+
+@media (max-width: 480px){
+  *{padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+.nav__burg{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+  margin-right: 20px;
+ } 
+ 
+ .burger{
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: black;
+}
+  .inline-nav{
+    display: none;
+  }
+}
+
+.burgerVisible{
+  display: flex;
+  flex-direction: column;
+  animation-duration: .5s;
+  animation-name: slidein;
+  text-align: center;
+}
+
+.burger__link{
+  color:black;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 a{
   text-decoration: none;
